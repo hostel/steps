@@ -26,10 +26,12 @@ export const Main = (): React.ReactElement => {
     ({
       currentTarget: { dataset },
     }: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-      const possbileStep = activeStep + 1;
       const indexAsNumber = Number(dataset.index);
 
-      if (dataset.index && indexAsNumber <= possbileStep) {
+      const isPossibleNext = indexAsNumber === activeStep + 1;
+      const isPossiblePrev = indexAsNumber === activeStep - 1;
+
+      if (dataset.index && (isPossibleNext || isPossiblePrev)) {
         setActiveStep(indexAsNumber);
       }
     },
