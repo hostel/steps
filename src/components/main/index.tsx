@@ -25,7 +25,7 @@ export const Main = (): React.ReactElement => {
   const onClick = useCallback(
     ({
       currentTarget: { dataset },
-    }: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    }: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
       const possbileStep = activeStep + 1;
       const indexAsNumber = Number(dataset.index);
 

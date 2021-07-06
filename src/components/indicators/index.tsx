@@ -4,7 +4,7 @@ import classNames from "classnames";
 import styles from "./indicators.module.scss";
 
 interface IProps {
-  onClick: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+  onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   steps: { title: string }[];
   activeStep: number;
 }
