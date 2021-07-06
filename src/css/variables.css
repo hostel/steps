@@ -1,0 +1,21 @@
+:root {
+  /*
+    For generate color name: 
+    https://chir.ag/projects/name-that-color/#6195ED
+  */
+  --color-purple-heart: #5125db;
+  --color-alto: #dbdbdb;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --weight-light: 300;
+  --weight-normal: 500;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 900;
+
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@custom-media --tablet (max-width: 1110px);
+@custom-media --mobile (max-width: 766px);

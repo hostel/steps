@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check count default steps 1`] = `
+<button
+  aria-pressed="true"
+  class="wrapItem completed"
+  data-index="0"
+>
+  <div
+    class="item"
+  >
+    <p
+      class="title"
+    >
+      Design
+    </p>
+    <div
+      class="circle"
+    />
+  </div>
+</button>
+`;
+
+exports[`check count when click last step 1`] = `
+Array [
+  <button
+    aria-pressed="true"
+    class="wrapItem completed"
+    data-index="0"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Design
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+]
+`;
+
+exports[`check count when click second step 1`] = `
+Array [
+  <button
+    aria-pressed="true"
+    class="wrapItem completed nextCompleted"
+    data-index="0"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Design
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+  <button
+    aria-pressed="true"
+    class="wrapItem completed"
+    data-index="1"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Build
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+]
+`;
+
+exports[`should render default active step (first step) 1`] = `
+<button
+  aria-pressed="true"
+  class="wrapItem completed"
+  data-index="0"
+>
+  <div
+    class="item"
+  >
+    <p
+      class="title"
+    >
+      Design
+    </p>
+    <div
+      class="circle"
+    />
+  </div>
+</button>
+`;
+
+exports[`should render first and second steps 1`] = `
+Array [
+  <button
+    aria-pressed="true"
+    class="wrapItem completed nextCompleted"
+    data-index="0"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Design
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+  <button
+    aria-pressed="true"
+    class="wrapItem completed"
+    data-index="1"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Build
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+]
+`;
+
+exports[`should render first step (b/c clicked last element) 1`] = `
+Array [
+  <button
+    aria-pressed="true"
+    class="wrapItem completed"
+    data-index="0"
+  >
+    <div
+      class="item"
+    >
+      <p
+        class="title"
+      >
+        Design
+      </p>
+      <div
+        class="circle"
+      />
+    </div>
+  </button>,
+]
+`;
