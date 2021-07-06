@@ -33,7 +33,7 @@ export const Main = (): React.ReactElement => {
         setActiveStep(indexAsNumber);
       }
     },
-    []
+    [activeStep]
   );
 
   return (

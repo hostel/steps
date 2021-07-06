@@ -9,6 +9,7 @@
   align-items: flex-end;
   flex: 1 1 auto;
   cursor: pointer;
+  padding: 0;
 
   &:last-child {
     .item::after {
